@@ -14,5 +14,6 @@ std(x) = norm(x .- avg(x)) / sqrt(length(x))
 # Quadratic Mean
 rms(x) = sqrt(avg(x)^2 + std(x)^2) 
 
-# Distance function
+# Distance function 
 distance(x, y) = norm(x - y)
+
