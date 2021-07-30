@@ -17,3 +17,5 @@ rms(x) = sqrt(avg(x)^2 + std(x)^2)
 # Distance function 
 distance(x, y) = norm(x - y)
 
+head = first
+tail = last
